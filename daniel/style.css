@@ -1,3 +1,28 @@
 .esports-info {
   display: inline-block;
+  width: 33%;
+  height: 80vh;
+  overflow: scroll;
+  margin: auto;
+}
+
+.esports-info>img {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.esports-tournaments *{
+  display: inline-block;
+}
+
+/* not sure what we need float for */
+
+.esports-tournaments img {
+  width: 33%;
+  float: left;
+}
+
+.esports-tournaments article {
+  width: 66%;
+  float: right;
 }
