@@ -39,7 +39,7 @@ div.sec3 {
 } 
 #rightbox{ 
   float:right; 
-  background-color: pink; 
+  background-color: rgb(248, 193, 202); 
   width:33%; 
   height:218.312; 
   overflow: scroll;
