@@ -1,0 +1,51 @@
+.esports-info {
+  display: inline-block;
+}
+
+div.sec1 {
+  background-color: rgb(162, 241, 142);
+  width: 700px;
+  height: 180px;
+  overflow: scroll;
+}
+
+div.sec2 {
+  background-color: rgb(162, 241, 142);
+  width: 700px;
+  height: 180px;
+  overflow: scroll;
+  border-color: deeppink; 
+}
+
+div.sec3 {
+  background-color: rgb(162, 241, 142);
+  width: 700px;
+  height: 180px;
+  overflow: scroll;
+}
+
+div.sec4 {
+  background-color: rgb(162, 241, 142);
+  width: 700px;
+  height: 180px;
+  overflow: scroll;
+}
+
+/*failed to Give each section a border!!*/
+
+span {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: algerian, courier;
+  line-height: 80%;
+}
+
+div.sec5 {
+  background-color: rgb(162, 241, 142);
+  width: 700px;
+  height: 180px;
+  overflow: scroll;
+}
+
+/*side-by-side using float not done yet */
