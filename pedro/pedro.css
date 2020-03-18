@@ -1,28 +1,23 @@
     .esports-info {
+        max-width: 300px;
+        max-height: 300px;
         display: inline-block;
+        border: 2px solid black; 
+        overflow: scroll;
+
     }
 
     .esports-info-img {
         
-        height: 50vh; 
-        width: 90vw;  
-        border: 5px solid black;
-        
-    }
-
-    .esports-info-img {
-
-        max-width: 500px;
-        height: 400px;
-        scroll-snap-type: mandatory;
+        max-width: 300px;
+        height: 300px;
+       
     }
 
     .dota-tournament-img {
         float: left;
         height: 30vh;
         width: 30vw;
+        margin-left: 500px;
     }
-    article {
-        margin-left: 580px;
-        
-    }
+    
