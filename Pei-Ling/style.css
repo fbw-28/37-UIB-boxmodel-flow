@@ -24,28 +24,23 @@ div.sec3 {
   overflow: scroll;
 }
 
-div.sec4 {
-  background-color: rgb(162, 241, 142);
-  width: 700px;
-  height: 180px;
+/*side-by-side using float */
+#leftbox { 
+  float:left;  
+  background-color: rgb(162, 241, 142); 
+  width:33%; 
+  height:218.312px; 
   overflow: scroll;
-}
-
-/*failed to Give each section a border!!*/
-
-span {
-  float: left;
-  width: 0.7em;
-  font-size: 400%;
-  font-family: algerian, courier;
-  line-height: 80%;
-}
-
-div.sec5 {
-  background-color: rgb(162, 241, 142);
-  width: 700px;
-  height: 180px;
+} 
+#dota-tournament-img{ 
+  float:left;  
+  width:34%; 
+  height:auto;  
+} 
+#rightbox{ 
+  float:right; 
+  background-color: pink; 
+  width:33%; 
+  height:218.312; 
   overflow: scroll;
-}
-
-/*side-by-side using float not done yet */
+} 
