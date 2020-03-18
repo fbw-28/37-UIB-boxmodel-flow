@@ -1,9 +1,12 @@
 .esports-info {
   display: inline-block;
-  height: 300px;
-  width: 300px;
+  height: 50vh;
+  width: 15vw;
   overflow: scroll;
   border: solid 1px;
+}
+.esports-info p{
+  padding: 4px;
 }
 
 img.esports-info-img {
